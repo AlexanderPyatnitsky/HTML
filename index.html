@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Знакомство с HTML</title>
+</head>
+<body>
+    <!-- <table>
+        <caption>
+            Рассписание автобусов
+        </caption>
+        <thead>
+            <tr>
+                <th>Номер автобуса</th>
+                <th>Направление</th>
+                <th>Время отправки</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>433</td>
+                <td>Орехов-Запорожье</td>
+                <td>9:00</td>
+            </tr>
+            <tr>
+                <td>777</td>
+                <td>Запорожье-Днепропетровск</td>
+                <td>10:30</td>
+            </tr>
+            <tr>
+                <td>789</td>
+                <td>Запорожье-Киев</td>
+                <td>14:35</td>
+            </tr>
+        </tbody>
+    </table> -->
+<form action="#" method="get">
+    <div>
+        <p>Имя</p>
+        <input tabindex="1" placeholder="Имя" type="text" name="user">
+    </div>
+    <div>
+        <p>Пароль</p>
+        <input tabindex="2" placeholder="Пароль" type="password" name="userpass">
+    </div>
+    <div>
+        <p>Телефон</p>
+        <input tabindex="3" placeholder="Номер" type="tel" name="userfon">
+    </div>
+    
+    <div>
+        <p>Пол</p>
+        <input tabindex="4" checked type="radio" name="gender" value="male">Мужской 
+        <div>
+            <input tabindex="4" type="radio" name="gender" value="female">Женский
+        </div>
+    </div>
+    <div>
+        <p>Имущество</p>
+        <div>
+            <input tabindex="5" checked type="checkbox" name="auto" value="yes"> Авто
+        </div>
+        <div>
+            <input tabindex="6" type="checkbox" name="motorbike" value="yes"> Мото
+        </div>
+        <div>
+            <input disabled tabindex="7" type="checkbox" name="bike" value="yes"> Вело
+        </div>  
+    </div>
+    <div>
+        <p>Дополнительная информация</p>
+        <textarea tabindex="8" name="text">
+            
+        </textarea>
+    </div>
+    <div>
+        <p>Прикрепить фото</p>
+        <input tabindex="9" type="file">
+    </div>
+    <div>
+        <p>Любимый цвет</p>
+        <select tabindex="10" name="color">
+            <option value="red">Красний</option>
+            <option value="Orange">Оранжевый</option>
+            <option value="black">Черный</option>
+            <option selected value="blue">Синий</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <p>Действия</p>
+        <button tabindex="11" type="submit">Отправить</button>
+        <button tabindex="12" type="reset">Очистить</button>
+    </div>
+</form>
+</body>
+</html>
